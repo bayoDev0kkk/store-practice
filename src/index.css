@@ -6,8 +6,80 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  margin: 0 auto;
+  width: 90%;
+}
+.active{
+  color: red;
+}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fileinput{
+    padding:10px 150px 30px 10px;
+    height: 47px;
+    width: 300px;
+    background: #D9D9D9;
+    border-radius: 10px;
+}
+
+.filetext{
+    width: 400px;
+    height: 47px;
+    padding: 10px;
+    font-size: 20px;
+    background: #D9D9D9;
+    border-radius: 10px;
+}
+
+body{
+    background: #7ea0b6;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.photo{
+    width: 407px;
+    height: 230px;
+    background: #D9D9D9;
+    border-radius: 10px;
+}
+h1{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+
+color: #33332D;
+
+mix-blend-mode: normal;
+}
+.n{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.03em;
+color: #000000;
+}
+.prod{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
